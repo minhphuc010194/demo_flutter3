@@ -15,11 +15,11 @@ class Account extends StatelessWidget {
             onPressed: () {
               Get.toNamed('/login');
             },
-            child: Center(child: Text('Đăng nhập')),
+            child: const Center(child: Text('Đăng nhập')),
           ),
           ElevatedButton(
             onPressed: () {},
-            child: Center(child: Text('Đăng ký')),
+            child: const Center(child: Text('Đăng ký')),
           ),
         ],
       ),
